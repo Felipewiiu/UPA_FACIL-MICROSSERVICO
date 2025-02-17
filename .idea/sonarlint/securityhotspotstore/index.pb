@@ -1,0 +1,23 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+U
+%MS-FILTRO-UNIDADE-ATENDIMENTO/pom.xml,d\2\d21b02123262fd94e8898d334549eed0b4a5f4eb
+›
+kMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/domain/entities/Upa.java,1\1\11120cc4996f8425546404e77a1bec7a7e80c884
+¸
+‡MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/springdoc/SpringDocConfiguration.java,7\2\72d12fc5d348615dfc882a51dc6f408886cd9784
+­
+}MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/application/usecases/CreateUpaUseCase.java,c\e\ced0cdaecb1e48f08845e44948fd899263dbc5ef
+§
+wMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/config/UpaConfig.java,7\2\72c44dba2422ccc57f48f5e7392166e70849e252
+¸
+‡MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/gateway/UpaRepositoryGatewayImpl.java,0\d\0da60b07abd270b9b81eb688c5c19cdc9bee3a8a
+»
+ŠMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/persistence/repository/UpaRepsitory.java,d\8\d8aced877797a85ae622086daf98c3143abebeda
+µ
+„MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/application/validators/IntegrityUpaValidator.java,d\5\d588265bf57fe2dbc3feceac0dce07c894dc10cc
+±
+€MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/application/gateway/UpaRepositoryGateway.java,e\4\e46e8daa91f91d15bca2e1a349e66e0f48abe753
+«
+{MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/application/validators/UpaValidator.java,b\8\b8e711203680b2df55be9fedfdd288da1e70fa87
