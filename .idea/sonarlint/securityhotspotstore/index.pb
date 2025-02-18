@@ -29,3 +29,5 @@ W
 wMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/mapper/Testmaper.java,3\7\373e72e94b4e92a5e9066206124b6cff163f1156
 «
 {MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/mapper/upa/UpaMapper.java,4\6\46a519b8424536f764c7eb71817163b3855ce2fa
+X
+(MS-FILTRO-UNIDADE-ATENDIMENTO/.gitignore,a\b\ab5346d5ca5a01b0a33f50c24c04b5e0d3773e74
