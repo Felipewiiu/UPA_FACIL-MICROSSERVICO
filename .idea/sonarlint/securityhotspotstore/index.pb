@@ -21,3 +21,11 @@ wMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendame
 €MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/application/gateway/UpaRepositoryGateway.java,e\4\e46e8daa91f91d15bca2e1a349e66e0f48abe753
 «
 {MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/application/validators/UpaValidator.java,b\8\b8e711203680b2df55be9fedfdd288da1e70fa87
+W
+'MS-FILTRO-UNIDADE-ATENDIMENTO/README.md,1\8\18d85d7a398cbe65634463d4d64fd14fe30f7620
+´
+ƒMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/persistence/entity/UpaEntity.java,d\4\d4802a079a6afeaad4e82537cf2a6ae9907486db
+§
+wMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/mapper/Testmaper.java,3\7\373e72e94b4e92a5e9066206124b6cff163f1156
+«
+{MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/mapper/upa/UpaMapper.java,4\6\46a519b8424536f764c7eb71817163b3855ce2fa
