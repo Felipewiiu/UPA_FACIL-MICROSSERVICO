@@ -31,3 +31,13 @@ wMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendame
 {MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/mapper/upa/UpaMapper.java,4\6\46a519b8424536f764c7eb71817163b3855ce2fa
 X
 (MS-FILTRO-UNIDADE-ATENDIMENTO/.gitignore,a\b\ab5346d5ca5a01b0a33f50c24c04b5e0d3773e74
+≠
+}MS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/presentation/controller/UpaController.java,1\6\161aeb1ea592dcaa73ccce483c697ffde4f738f7
+ü
+oMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/presentation/dto/UpaDto.java,7\4\74527e3118ee83037efefd495ad3396061a12803
+¡
+êMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/infrastructure/exeptionhandler/ControllerExeptionHandler.java,5\8\58a3ec0422bfbacd0ce22397612901d912768533
+°
+qMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/domain/enums/StateCountry.java,4\7\474d241b7c2cdd96f4261317fecbabd8a03bb4e2
+®
+xMS-FILTRO-UNIDADE-ATENDIMENTO/src/main/java/br/com/example/upafacil/ms_agendamento/presentation/mapper/UpaDtoMapper.java,4\3\43577157d5096f3d2de430d5a1e604c7bae6e147
