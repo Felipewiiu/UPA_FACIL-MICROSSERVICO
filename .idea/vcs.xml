@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/API_GATEWAY_UPA_FACIL" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/EUREKA-SERVER-UPA-FACIL" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/MS-FILTRO-UNIDADE-ATENDIMENTO" vcs="Git" />
-  </component>
-</project>
