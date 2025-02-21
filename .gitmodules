@@ -4,3 +4,6 @@
 [submodule "EUREKA-SERVER-UPA-FACIL"]
 	path = EUREKA-SERVER-UPA-FACIL
 	url = https://github.com/Felipewiiu/EUREKA-SERVER-UPA-FACIL.git
+[submodule "MS-FILTRO-UNIDADE-ATENDIMENTO"]
+	path = MS-FILTRO-UNIDADE-ATENDIMENTO
+	url = https://github.com/Felipewiiu/MS-FILTRO-UNIDADE-ATENDIMENTO.git
