@@ -1,0 +1,52 @@
+version: '3.8'
+services:
+  db:
+    image: 'postgres:latest'
+    environment:
+      POSTGRES_USER: ${USER_POSTGRES}
+      POSTGRES_PASSWORD: ${PASSWORD_POSTGRES}
+      POSTGRES_DB: ms-filtro-unidade-atendimento
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "${USER_POSTGRES}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  gateway:
+    container_name: 'MS-API-GATEWAY'
+    image: 'ms-api-gateway:1.0'
+    build:
+      context: .
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8082:8080"
+  service-discovery:
+    container_name: 'MS-EUREKA-SERVER'
+    image: 'ms-server-eureka:1.0'
+    build:
+      context: .
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8081:8080"
+  ms-filtro-unidade-atendimento:
+    container_name: 'MS-FILTRO-UNIDADE-ATENDIMENTO'
+    image: 'ms-filtro-unidade-atendimento:1.0'
+    build:
+      context: .
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8083:8080"
+    environment:
+      SPRING_R2DBC_URL: r2dbc:postgresql://db/ms-filtro-unidade-atendimento
+      SPRING_R2DBC_USERNAME: ${USER_POSTGRES}
+      SPRING_R2DBC_PASSWORD: ${PASSWORD_POSTGRES}
+      SPRING_FLYWAY_URL: jdbc:postgresql://db/ms-filtro-unidade-atendimento
+      SPRING_FLYWAY_USER: ${USER_POSTGRES}
+      SPRING_FLYWAY_PASSWORD: ${PASSWORD_POSTGRES}
