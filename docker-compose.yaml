@@ -17,7 +17,7 @@ services:
     container_name: 'MS-API-GATEWAY'
     image: 'ms-api-gateway:1.0'
     build:
-      context: .
+      context: ./API_GATEWAY_UPA_FACIL
     depends_on:
       db:
         condition: service_healthy
@@ -27,7 +27,7 @@ services:
     container_name: 'MS-EUREKA-SERVER'
     image: 'ms-server-eureka:1.0'
     build:
-      context: .
+      context: ./EUREKA-SERVER-UPA-FACIL
     depends_on:
       db:
         condition: service_healthy
@@ -37,7 +37,7 @@ services:
     container_name: 'MS-FILTRO-UNIDADE-ATENDIMENTO'
     image: 'ms-filtro-unidade-atendimento:1.0'
     build:
-      context: .
+      context: ./MS-FILTRO-UNIDADE-ATENDIMENTO
     depends_on:
       db:
         condition: service_healthy
